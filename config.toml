@@ -19,4 +19,4 @@ hidden = false
 ignore = false
 
 [editor.whitespace]
-render = "all"
+render = "none"
