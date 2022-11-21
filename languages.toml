@@ -4,6 +4,7 @@ name = "rust"
 scope = "source.rust"
 injection-regex = "rust"
 file-types = ["rs"]
+roots = []
 comment-token = "//"
 indent = { tab-width = 4, unit = "    " }
 language-server = { command = "/home/therry/.cargo/bin/rust-analyzer"}
@@ -15,6 +16,7 @@ auto-format = true
 '[' = ']'
 '"' = '"'
 '`' = '`'
+'<' = '>'
 
 [[grammar]]
 name = "rust"
