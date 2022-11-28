@@ -8,7 +8,7 @@ auto-pairs = true
 
 [editor.statusline]
 left = ["mode", "file-name"]
-right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+right = ["diagnostics", "position", "file-type"]
 separator = "|"
 
 [editor.lsp]
@@ -17,6 +17,3 @@ display-messages = true
 [editor.file-picker]
 hidden = false
 ignore = false
-
-[editor.whitespace]
-render = "none"
