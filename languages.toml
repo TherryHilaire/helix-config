@@ -76,7 +76,7 @@ file-types = ["lua"]
 shebangs = ["lua"]
 comment-token = "--"
 indent = { tab-width = 2, unit = "  " }
-language-server = { command = "/home/therry/personal/lua-language-server/bin/lua-language-server", args = ["-E", "/home/therry/personal/lua-language-server/main.lua" ] }
+language-server = { command = "/home/therry/personal/source/lua-language-server/bin/lua-language-server", args = ["-E", "/home/therry/personal/source/lua-language-server/main.lua" ] }
 
 [[grammar]]
 name = "lua"
