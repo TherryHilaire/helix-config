@@ -1,4 +1,4 @@
-theme = "gruvbox_dark_hard"
+theme = "default"
 
 [editor]
 line-number = "relative"
@@ -17,3 +17,8 @@ display-messages = true
 [editor.file-picker]
 hidden = false
 ignore = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
